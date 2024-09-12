@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../public/assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../../../public/assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../../../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+#maincontainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbarcontainer{
+    width: 90%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20%;
+}
+
+.linkname{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+
+#footer{
+    width: 90%;
+    height: fit-content;
+}
+
+#footerinfo{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 90%;
+    box-sizing: border-box;
+    padding: 35px 0 35px 0;
+    column-gap: 10%;
+}
+
+.commonfooterinfodiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;    
+}
+
+#logoinfodiv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#logonameInFooter{
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: black;
+}
+
+.linknameInFooter{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+    color: black;
+}
+
+.footerInfoName{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+
+.logonameInFooterValue{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+#enterEmail{
+    color: #9F9F9F;
+    font-size: 14px;
+    font-family: Poppins-Regular;
+}
+
+#subscribe{
+    font-size: 14px;
+    font-family: Poppins-Medium;
+    color: black;
+}
+
+#Newsletterdiv{
+    display: flex;
+    column-gap: 20px;
+}
+
+#websiteRights{
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    color: black;
+}
+
+@media screen and (max-width: 550px){
+    #navbar{
+        column-gap: 15%;
+    }
+
+    #footerinfo{
+        padding: 10px 0 10px 0;
+        column-gap: 5%;
+    }
+
+    #logonameInFooter{
+        font-size: 16px;
+    }
+    
+    .linknameInFooter{
+        font-size: 12px;
+    }
+    
+    .footerInfoName{
+        font-size: 12px;
+    }
+    
+    .logonameInFooterValue{
+        font-size: 12px;
+    }
+    
+    #enterEmail{
+        font-size: 10px;
+    }
+    
+    #subscribe{
+        font-size: 10px;
+    }
+    
+    #Newsletterdiv{
+        display: flex;
+        column-gap: 10px;
+    }
+    
+    #websiteRights{
+        font-size: 12px;
+    }
+
+    .linkname{
+        font-size: 12px;
+    }
+
+    #websitelogo{
+        width: 85px;
+    }
+
+  
+}

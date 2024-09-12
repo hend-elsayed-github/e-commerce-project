@@ -1,0 +1,315 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../public/assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light ;
+    src: url(../../../public/assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../../../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../../public/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+#imageandlogodiv{
+    width: 100%;
+    height: 316px;
+    background-image: url(../../../public/assets/images/contact-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart{
+    font-family: Poppins-Medium;
+    color: black;
+    font-size: 48px;
+    margin: 0;
+}
+
+#cartDirectoryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+#homeWord{
+    font-size: 16px;
+    color: black;
+    font-family: Poppins-Medium;
+}
+
+#cartWord{
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: black;
+}
+
+.cartdiv{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 5%;
+}
+
+.leftcartdiv{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 20px;
+}
+
+.infonamesdiv{
+    width: 100%;
+    height: 55px;
+    background-color: #F9F1E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 18px;
+}
+
+.rightcartdiv{
+    width: 25%;
+    height: 100%;
+    background-color: #F9F1E7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.commonCartTotalsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.infoimage{
+    /* width: 40px; */
+    height: 80px;
+    width: 10%;
+}
+
+.infovalues{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+.nameincartdiv{
+    font-size: 16px;
+    color: #9F9F9F;
+    font-family: Poppins-Regular;
+    width: 18%;
+}
+
+.subtotalincart{
+    font-size: 16px;
+    color:black;
+    font-family: Poppins-Regular;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+
+.quantityincart{
+    font-size: 16px;
+    color:black;
+    font-family: Poppins-Regular;
+    width: 32px;
+    height: 32px;
+    border: solid 1px  #9F9F9F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.carttotals{
+    font-size: 32px;
+    color: black;
+    font-family: Poppins-SemiBold;
+
+}
+
+.totalvalue{
+    font-size: 16px;
+    color: black;
+    font-family: Poppins-Medium;
+}
+
+.number1{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+}
+
+.number2{
+    color: #B88E2F;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+}
+
+.lastbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: black;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    background-color: #F9F1E7;
+}
+
+@media screen and (max-width:900px) {
+    .carttotals{
+        font-size: 24px;
+    }
+
+    .lastbtn{
+        width: 80%;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    #imageandlogodiv{
+        height: 216px;
+    }
+    
+    #cart{
+        font-size: 28px;
+    }
+
+    #homeWord{
+        font-size: 14px;
+    }
+
+    #cartWord{
+        font-size: 14px;
+    }
+    
+    .cartdiv{
+        height: fit-content;
+        padding: 10px;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .leftcartdiv{
+        width: 100%;
+        height: fit-content;
+        flex-direction: row;
+        justify-content: space-around;
+        column-gap: 0px;
+    }
+    
+    .infonamesdiv{
+        width: 45%;
+        height: 60%;
+        background-color: white;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 20px;
+        box-sizing: border-box;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .rightcartdiv{
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+    }
+    
+    .infoimage{
+        height: 40px;
+        width: 60px;
+    }
+
+    .infovalues{
+        width: 45%;
+        height: fit-content;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 15px;
+    }
+
+    .nameincartdiv{
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .subtotalincart{
+        font-size: 14px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .quantityincart{
+        font-size: 12px;
+        width: 22px;
+        height: 22px;
+    }
+    
+    .carttotals{
+        font-size: 22px;
+    }
+    
+    .totalvalue{
+        font-size: 14px;
+    }
+    
+    .number1{
+        font-size: 14px;
+    }
+    
+    .number2{
+        font-size: 16px;
+    }
+    
+    .lastbtn{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

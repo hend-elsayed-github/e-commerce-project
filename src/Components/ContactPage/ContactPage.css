@@ -1,0 +1,289 @@
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../public/assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light ;
+    src: url(../../../public/assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../../public/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../../../public/assets/fonts/Poppins-Regular.ttf);
+}
+
+
+#imageandlogodiv{
+    width: 100%;
+    height: 316px;
+    background-image: url(../../../public/assets/images/contact-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    font-family: Poppins-Medium;
+    color: black;
+    font-size: 48px;
+    margin: 0;
+}
+
+#contactDirectoryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+#homeWord{
+    font-size: 16px;
+    color: black;
+    font-family: Poppins-Medium;
+    text-decoration: none;
+}
+
+#contactWord{
+    font-family: Poppins-Light;
+    font-size: 16px;
+    color: black;
+}
+
+#contactMainDiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#getInToutchDiv{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 40px 0 40px 0;
+}
+
+#inTouchHead{
+    color: black;
+    font-size: 36px;
+    font-family: Poppins-SemiBold;
+
+}
+
+#inToutchInfo{
+    font-size: 16px;
+    color: #9F9F9F;
+    font-family: Poppins-Regular;
+    width: 43%;
+    text-align: center;
+    margin: 0;
+}
+
+#contactsAndFormDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 0 40px 0;
+}
+
+#contactsdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.commonContactsDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 15px;
+    
+}
+
+#contactsForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.commonFormDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.contactsdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactname{
+    color: black;
+    font-size: 24px;
+    font-family: Poppins-Medium;
+}
+
+.contactvalue{
+    color: black;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    width: 210px;
+}
+
+.infoname{
+    font-size: 16px;
+    font-family: Poppins-Medium;
+    color: black;
+}
+
+.inputshape{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 75px;
+    width: 500px;
+    border-color: #9F9F9F;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    color: #9F9F9F;
+}
+
+#textarea{
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-color: #9F9F9F;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#submitbtn{
+    background-color: #B88E2F;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    font-size: 16px;
+    font-family: Poppins-Regular;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submitbtn:hover{
+    background-color: #d3b670;
+}
+
+@media screen and (max-width:700px) {
+    #imageandlogodiv{
+        height: 216px;
+    }
+    
+    #contact{
+        font-size: 28px;
+   }
+
+   #homeWord{
+    font-size: 14px;
+}
+
+#contactWord{
+    font-size: 14px;
+}
+
+#getInToutchDiv{
+    padding: 10px;
+}
+
+#inTouchHead{
+    font-size: 18px;
+}
+
+#inToutchInfo{
+    font-size: 14px;
+    width: 100%;
+}
+
+#contactsAndFormDiv{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 20px;
+    width: 100%;
+}
+
+.contactname{
+    font-size: 16px;
+}
+
+.contactvalue{
+    font-size: 14px;
+    width: 100%;
+}
+
+.infoname{
+    font-size: 14px;
+}
+
+.inputshape{
+    height: 75px;
+    width:100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#textarea{
+    width: 100%;
+}
+
+#contactsForm{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0 20px 0;
+    align-items: center;
+}
+
+.commonFormDiv{
+    width: 100%;
+}
+
+#submitbtn{
+    width: 100%;
+    font-size: 14px;
+}
+}

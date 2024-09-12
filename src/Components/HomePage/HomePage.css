@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../../../public/assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../../public/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+#homeimage{
+    width: 100%;
+}
+
+#categories{
+    font-size: 32px;
+    color: #333333;
+    font-family: Poppins-Bold;
+}
+
+#homepageinfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: border-box;
+    padding: 30px 0 50px 0;
+    gap: 30px;
+}
+
+.categorydiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    row-gap: 10px;
+}
+
+.categoryimage{
+    width: 281px;
+    height: 250px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.categoryname{
+    text-decoration: none;
+    color: #333333;
+    font-size: 24px;
+    font-family: Poppins-SemiBold;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+}
+
+.singleCatLink{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px){
+    #categories{
+        font-size: 26px;
+    }
+
+    #homepageinfo{
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    .categoryimage{
+        width: 181px;
+        height: 150px;
+    }
+    .categoryname{
+        font-size: 16px;
+    }
+}

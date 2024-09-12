@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../../../public/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../../../public/assets/fonts/Poppins-Medium.ttf);
+}
+
+#slogansdiv{
+    height: 270px;
+    width: 100%;
+    background-color: #FAF3EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 5% 0 5%;
+}
+
+.commonslogandiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+
+}
+
+.commonSloganInfoDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sloganname{
+    color: #242424;
+    font-size: 25px;
+    font-family: Poppins-SemiBold;
+}
+
+.sloganvalue{
+    font-size: 20px;
+    color: #898989;
+    font-family: Poppins-Medium;
+}
+
+@media screen and (max-width:900px) {
+    .sloganname{
+        font-size: 22px;
+    }
+    
+    .sloganvalue{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    #slogansdiv{
+        height: 400px;
+        flex-direction: column;
+        padding: 5% 0% 5% 0%;
+    }
+
+    .sloganname{
+        font-size: 25px;
+    }
+    
+    .sloganvalue{
+        font-size: 15px;
+    }
+
+    .sloganlogo{
+        width: 40px;
+        height: 40px;
+    }
+
+}
